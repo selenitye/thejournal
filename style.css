@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik:wght@300;400;500&display=swap");
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    /*background-image: #F6ECDF;*/
+    background-image: url(media/Home.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .menu {
+    background-color: #EBC59C;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 40px 40px;
+    font-weight: bold;
+  }
+  .menu a {
+    color: #000000;
+    text-align: center;
+    padding: 80px 10px 25px 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .menu a:hover {
+    font-size: 20px;
+    border-radius: 30px;
+    background-color: #F6ECDF;
+    color: #5D5341;
+    transform: scale(1.1);
+  }
+
+  .logo {
+    position: absolute;
+    padding: 10px 70px;
+  }
+
+  .barraInt {
+    text-align: right;
+    display: block;
+    padding-top: 8px;
+    height: 45px;
+    width: 100%;
+    justify-content: space-around;
+  }
+  #searchbar {
+    min-width: 320px; /* Limitou o conteúdo ao mínimo que fica sem deformar tudo */
+    max-width: 1000px; /* Limitou o conteúdo a 1000px, pra dps centralizar */
+    margin: auto;
+    display: flex;
+    border-radius: 25px;
+    padding: 5px;
+    width: 600px;
+    height: 30px;
+    border-style: none;
+    font-size: 16px;
+    justify-content: space-around;
+    padding-left: 25px;
+    background-image: url(./media/pesquisa.png);
+    background-position: left center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+  }
+
+  .principal {
+    font-size: 20px;
+    color: #000000;
+    padding: 80px; /*Centralizar o texto inteiro dentro da caixa*/
+    background-color: white;
+    background-position: center;
+    text-align: justify;
+    align-items: center;
+    margin-left: 200px;
+    margin-right:200px;
+  }
+
+  .principal h2 {
+    color: #000000;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .h2 {
+    font-size: 20px;
+    color: #5D5341;
+    padding-bottom: 15px;
+  }
+
+  .materiais {
+    text-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .material {
+    background-color: #EBC59C;
+    list-style-type: none;
+    
+  }
+
+  .titulo {
+    background-color: white;
+    font-size: 20px;
+    color: #5D5341;
+    padding-bottom: 15px;
+  }
+  /* -------------------FOOTER------------------------*/
+
+ footer {
+    color: #000000;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    background-color: #F6ECDF;
+  }
+
+/* DEIXANDO CADA ITEM DO RODAPÉ LADO A LADO*/
+ .ladoalado {
+    text-align: top;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /*EDITANDO AS FONTES DO RODAPÉ */
+ .rodape h4,
+ span,
+ p {
+  padding: 5px;
+ }
+
+ .rodape h4 {
+  font-size: 18px;
+ }
+
+ .rodape span {
+  font-size: 15px;
+ }
+
+ .rodape p {
+  font-size: 12px;
+}
+
+ .rodape {
+  min-height: auto;
+  width: 100%;
+ }
+
+.journal {
+    max-width: 800px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+.redes,
+.instituicoes,
+.journal {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .links a {
+    text-decoration: none;
+    color: #c48635;
+    padding: 5px;
+  }
+  .links a:hover {
+  color: #5D5341;
+  }
+
+  /* IMAGENS */
+
+.logofooter {
+    padding: 25px 70px;
+  }
